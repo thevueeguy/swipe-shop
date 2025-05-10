@@ -22,7 +22,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
       initial={{ opacity: 0, scale: 0.95, y: 30 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className="w-full h-full max-w-[500px] mx-auto p-2 cursor-pointer"
+      className="w-full h-full max-w-[500px] mx-auto p-4 cursor-pointer"
       data-test-id={id}
     >
       <Card className="overflow-hidden hover:shadow-2xl transition-shadow duration-300 w-full h-full bg-white">

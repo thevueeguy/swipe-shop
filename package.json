@@ -6,7 +6,6 @@
   "homepage": "https://thevueeguy.github.io/swipe-shop",
   "scripts": {
     "build": "tsc -b && vite build && cp dist/index.html dist/404.html",
-    "predeploy": "yarn run build",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
